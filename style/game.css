@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+* {
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+  font-family: rubik;
+}
+
+.score-board {
+  height: 100px;
+  width: 100%;
+  background-color: #0f0f0f;
+  position: absolute;
+  text-align: center;
+}
+
+.score-board p {
+  color: white;
+  font-size: 70px;
+  background-color: transparent;
+  font-weight: bold;
+  display: inline;
+  margin: 80px;
+  line-height: 100px;
+}
+
+.score-board #redScore {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #e93a3a;
+          text-decoration-color: #e93a3a;
+}
+
+.score-board #blueScore {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #4d56cf;
+          text-decoration-color: #4d56cf;
+}
+
+.container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 50%;
+  height: 100vh;
+}
+
+.container #gameField {
+  display: block;
+}
+
+.goal-container {
+  z-index: 10;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+.goal-container h1 {
+  margin-bottom: 250px;
+  background-color: transparent;
+  font-size: 70px;
+  opacity: 1;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.goal-container h1.invisible {
+  opacity: 0;
+}
+/*# sourceMappingURL=game.css.map */

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+* {
+  background-color: #0f0f0f;
+  margin: 0;
+  padding: 0;
+  font-family: rubik;
+}
+
+.container {
+  background-color: #212121;
+  height: 400px;
+  width: 500px;
+  border-radius: 50px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container input {
+  height: 30px;
+  width: 300px;
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  display: block;
+  margin: 120px auto;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.container a {
+  padding: 10px 20px;
+  background-color: #ff5050;
+  color: #0f0f0f;
+  border-radius: 100px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.container a:hover {
+  background-color: #47ff50;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=names.css.map */
